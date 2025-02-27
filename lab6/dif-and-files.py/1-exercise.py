@@ -1,5 +1,5 @@
 import os
 
-path= r"/Users/bekzatshaiyrgozha/Documents"
+path= r"/Users/alqar/Documents"
 all=list(os.listdir(path))
 print(all)

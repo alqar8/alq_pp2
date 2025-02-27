@@ -19,6 +19,6 @@ def check_access(path):
             print("don't executable")
 
 if __name__ == "__main__":
-    path_to_check = r"C:/Users/bekzatshaiyrgozha/Documents"
+    path_to_check = r"C:/Users/alqar/Documents"
     
 check_access(path_to_check)
