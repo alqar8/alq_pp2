@@ -62,7 +62,7 @@ def main():
                       surname VARCHAR(255) NOT NULL, 
                       phone VARCHAR(255) NOT NULL
                     )""")
-    
+
     while True:
         print("""
         List of commands:
@@ -73,7 +73,7 @@ def main():
         5. Type "f" or "F" to close the program.
         6. Type "s" or "S" to see all data in the table.
         """)
-        
+
         command = input().lower()
 
         if command in ['i', 'insert']:
